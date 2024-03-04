@@ -2,7 +2,7 @@ export async function getWeather() {
 	const API_LINK = 'https://api.openweathermap.org/data/2.5/weather?q='
 	const API_KEY = process.env.API_KEY
 	const API_UNITS = '&units=metric'
-	const URL = API_LINK + 'cracow' + API_KEY + API_UNITS
+	const URL = API_LINK + 'krakow' + API_KEY + API_UNITS
 
 	try {
 		const response = await fetch(URL)
